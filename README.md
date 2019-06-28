@@ -2,6 +2,8 @@
 
 Implement an application that accepts a collection of _shifts_ and outputs a _payslip_. Tooling, language and design is the choice of the implementor but it'd be reasonable to assume a command line executable or service endpoint or similar that takes an input and produces an output. It is **not** expected to produce a GUI for this task.
 
+Whilst having the correct output is important, we are more interested in your approach to the solution.
+
 ### Example Input
 
 An example of the input looks like below:
