@@ -51,14 +51,14 @@ An example of the input looks like below:
 - For every hour worked the employee earns 1 hour of their base rate for the shifts `wageLevel`.
 - Employee's do not earn anything during breaks.
 - They earn an additional base loading of `25%` for every hour worked.
-- For hours worked after 6pm from Monday to Friday the employee earns an additional loading of `30%`.
+- For hours worked after 6pm from Monday to Friday the employee earns a loading of `30%`.
 - Hours beyond 9 hours of work (excluding breaks) are considered overtime.
-- For hours worked as overtime the employee earns an additional overtime loading of `75%`.
-- For hours worked beyond 3 hours of overtime the employee earns an additional overtime loading of `125%`.
-- For hours worked on a Saturday the employee earns an additonal loading of `50%`.
+- For hours worked as overtime the employee earns a loading of `75%`.
+- For hours worked beyond 3 hours of overtime the employee earns a loading of `125%`.
+- For hours worked on a Saturday the employee earns a loading of `50%`.
 - For hours worked on a Sunday the employee earns a loading of `95%`.
 - For overtime hours worked on a Sunday the employee earns a loading of `125%`.
-- All loading values are absolute, not additive (e.gafter 6pm Monday to Friday is 30%, not 25% + 30%).
+- All loading values are absolute, not additive (e.g after 6pm Monday to Friday is 30%, not 25% + 30%).
 
 ### PaySlip format
 
