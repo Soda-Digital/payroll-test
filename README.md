@@ -11,9 +11,7 @@ An example of the input looks like below:
 ```json
 {
   "employee": {
-    "name": "R2-D2",
-    "age": "adult",
-    "casual": true
+    "name": "John Smith",
   },
   "wageLevels": {
     "1": "12.34",
@@ -52,21 +50,18 @@ An example of the input looks like below:
 
 - For every hour worked the employee earns 1 hour of their base rate for the shifts `wageLevel`.
 - Employee's do not earn anything during breaks.
-- Breaks may be `30`, `45` or `60` minutes.
-- If the employee is casual they earn an additional loading of `25%` for every hour worked.
-- For hours worked after 6pm from Monday to Friday the employee earns an additional loading of `30%` (inclusive of the casual loading).
+- They earn an additional base loading of `25%` for every hour worked.
+- For hours worked after 6pm from Monday to Friday the employee earns an additional loading of `30%`.
 - Hours beyond 9 hours of work (excluding breaks) are considered overtime.
-- For hours worked as overtime the employee earns an additional overtime loading of `75%` (inclusive of the casual loading).
-- For hours worked beyond 3 hours of overtime the employee earns an additional overtime loading of `125%` (inclusive of the casual loading).
-- For hours worked on a Saturday the employee earns an additonal loading of `50%` (inclusive of the casual loading).
-- For hours worked on a Sunday the employee earns an additional loading of `95%` (inclusive of the casual loading).
-- For overtime hours worked on a Sunday the employee earns an additional loading of `125%`
-- For hours worked on a Public Holiday the employee earns an additional loading of `150%` (inclusive of the casual loading).
-- For overtime hours worked on a Public Holiday the employee earns an additional loading of `175%` (inclusive of the casual loading).
-- If an employee works fore more than 5 hours without a break they are entitled to a crib allowance of `50%` of thier base rate.
+- For hours worked as overtime the employee earns an additional overtime loading of `75%`.
+- For hours worked beyond 3 hours of overtime the employee earns an additional overtime loading of `125%`.
+- For hours worked on a Saturday the employee earns an additonal loading of `50%`.
+- For hours worked on a Sunday the employee earns a loading of `95%`.
+- For overtime hours worked on a Sunday the employee earns a loading of `125%`.
+- All loading values are absolute, not additive (e.gafter 6pm Monday to Friday is 30%, not 25% + 30%).
 
 ### PaySlip format
 
 - The payslip should provide totals for the number of normal hours worked, number of overtime hours worked and total earnings.
 - The payslip needs to detail how much was earned for each shift, how many normal, after 6 and overtime hours were worked and what Rate was used for each one.
-- The payslip should show any allowances earned for any shift.
+- JSON, CSV, XML, Unit Test or simple text are valid outputs.
