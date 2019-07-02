@@ -26,8 +26,8 @@ An example of the input looks like below:
       "breakDurationMinutes": "45"
     },
     {
-      "start": "2019-06-28T12:00:00",
-      "end": "2019-06-28T16:15:00",
+      "start": "2019-06-28T08:00:00",
+      "end": "2019-06-28T19:15:00",
       "wageLevel": "1"
     },
     {
