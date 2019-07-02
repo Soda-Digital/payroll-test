@@ -63,7 +63,7 @@ An example of the input looks like below:
 - For overtime hours worked on a Sunday the employee earns an additional loading of `125%`
 - For hours worked on a Public Holiday the employee earns an additional loading of `150%` (inclusive of the casual loading).
 - For overtime hours worked on a Public Holiday the employee earns an additional loading of `175%` (inclusive of the casual loading).
-- If an employee works fore more than 5 hours without a break they are entitled to a crib allowance of `50%` of thier base rate.
+- If an employee works for more than 5 hours without a break they are entitled to a crib allowance of `50%` of thier base rate.
 
 ### PaySlip format
 
