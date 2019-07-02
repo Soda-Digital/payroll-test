@@ -58,10 +58,10 @@ An example of the input looks like below:
 - For hours worked on a Saturday the employee earns a loading of `50%`.
 - For hours worked on a Sunday the employee earns a loading of `95%`.
 - For overtime hours worked on a Sunday the employee earns a loading of `125%`.
-- All loading values are absolute, not additive (e.g after 6pm Monday to Friday is 30%, not 25% + 30%).
+- All loading values are absolute, not additive (e.g after 6pm Monday to Friday is `30%`, not `25% + 30%`).
 
 ### PaySlip format
 
 - The payslip should provide totals for the number of normal hours worked, number of overtime hours worked and total earnings.
-- The payslip needs to detail how much was earned for each shift, how many normal, after 6 and overtime hours were worked and what Rate was used for each one.
+- For each shift, it should detail the amount of earnings, how many normal, after 6 and overtime hours were worked.
 - JSON, CSV, XML, Unit Test or simple text are valid outputs.
