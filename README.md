@@ -59,6 +59,7 @@ An example of the input looks like below:
 - For hours worked on a Sunday the employee earns a loading of `95%`.
 - For overtime hours worked on a Sunday the employee earns a loading of `125%`.
 - All loading values are absolute, not additive (e.g after 6pm Monday to Friday is `30%`, not `25% + 30%`).
+- Shifts won't ever span beyond a single day, you can ignore this scenario.
 
 ### PaySlip format
 
